@@ -1,0 +1,55 @@
+body {
+    background-image : url("background.gif");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+[role=tab] {
+    background-color: lightgray;
+  }
+.window-body {
+    margin-top: 60px;
+    width: 500px;
+}
+button {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+h5 {
+    font-size: small;
+}
+
+.imageandtext {
+  background-image : url("dotpic.gif");
+  display: flex;
+  align-items: center;
+  width: 480px;
+  height: 190px;
+  border-radius: 30px;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 7px;
+}
+
+.pic1{
+  border-radius: 30px;
+}
+.pic2{
+  border-radius: 30px;
+}
+.pic3{
+  border-radius: 30px;
+}
+.feed1{
+  border-radius: 30px;
+}
+.feed2{
+  border-radius: 30px;
+}
+
